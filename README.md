@@ -9,6 +9,8 @@ Welcome to RCryptor! This tool allows you to encrypt/decrypt your R.E.P.O save f
 Simply download the RCryptor binary (or build it yourself by cloning the repository). Run RCryptor.exe. The program will ask you for a source file (either an encrypted `.es3` (if you want to decrypt) file or a decrypted `.repo` (if you want to encrypt) file), as well as a target output directory.
 Clicking Encrypt or Decrypt will produce `out.es3` (encrypt) or `out.repo` (decrypt). You can then replace your original save file with the new encrypted save file.
 
+Do not attempt to decrypt a non-encrypted R.E.P.O save file as it will cause an error. This will be fixed in 0.1.1
+
 ## Additional Notes
 - If you are part of the R.E.P.O team and would like this repository taken down, please create an issue under the "Issues" tab.
 - You should always create a backup of your game save, as there is no guarantee that data will not be lost or damaged while using this software
